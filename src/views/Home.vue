@@ -1,7 +1,14 @@
 <template>
-  <div class="home">
-    <img src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="home main-content">
+    <div class="left-content">
+      <h1>Lorem, ipsum dolor.</h1>
+      <p class="subtxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, quia?</p>
+      <p class="subtxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, quia?</p>
+    </div>
+    <div class="right-content img1">
+      <button><router-link to="/portfolio/one">Browser Work</router-link></button>
+    </div>
+    
   </div>
 </template>
 
@@ -16,3 +23,11 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+
+.img1 {
+  background: url('../assets/home.jpg')
+}
+
+</style>
