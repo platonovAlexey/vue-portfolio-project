@@ -1,4 +1,4 @@
-# vue-portfolio-project
+# vue-portfolio-project-SEO-Friendly
 
 > Приложение - простой пример SEO-Friendly проекта на Vue.js
 
@@ -6,10 +6,10 @@
 
 ``` bash
 # clone repository
-git clone https://github.com/platonovAlexey/vue-portfolio-project.git vue-portfolio-project
+git clone https://github.com/platonovAlexey/vue-portfolio-project-SEO-Friendly.git vue-portfolio-project-SEO-Friendly
 
 # go to folder
-cd vue-portfolio-project
+cd vue-portfolio-project-SEO-Friendly
 
 # install dependencies
 yarn install
